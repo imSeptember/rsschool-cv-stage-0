@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Kalenskiy Vlad</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="leftSide">
+          <section>
+            <img class="avatar" src="/images/IMG_8020.jpeg" alt="" />
+            <h1>Kalenskiy Vlad</h1>
+            <h1>Future Frontend Developer</h1>
+          </section>
+          <section>
+            <h3 id="about">Briefly About Myself:</h3>
+            <p>
+              “Every book was a peep-hole into the realm of knowledge. His
+              hunger fed upon what he read, and increased.” ― Jack London,
+              Martin Eden
+            </p>
+          </section>
+          <section>
+            <h3 id="contact">Contact information:</h3>
+            <p>Telegram:@kalenskiy_adv</p>
+            <p>Discord: @imseptember</p>
+          </section>
+        </div>
+        <div class="rightSide">
+          <section>
+            <h2 id="skills">Skills and Proficiency:</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript Basics</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </section>
+          <section>
+            <h2 id="code">Code example:</h2>
+            <p>Moving Zeros To The End KATA from CODEWARS:</p>
+            <pre>
+              Write an algorithm that takes an array and moves all of the zeros
+              to the end, preserving the order of the other elements. 
+              function moveZeros(arr) {
+                let newArray = [];
+                arr.map((elem) => {
+                  if (elem !== 0) {
+                    newArray.push(elem);
+                  }
+                });
+                let length = arr.length - newArray.length;
+                for (let i = 0; i < length; i++) {
+                  newArray.push(0);
+                }
+                return newArray;
+              }
+            </pre>
+          </section>
+          <section>
+            <h2 id="projects">Pet-projects:</h2>
+          </section>
+
+          <section>
+            <a class="links" href="https://github.com/imSeptember/Calculator"
+              >Calculator</a
+            >
+          </section>
+          <br />
+          <section>
+            <a class="links" href="https://github.com/imSeptember/POPUP"
+              >POPUP</a
+            >
+          </section>
+          <section>
+            <h2 id="education">Education and English skills:</h2>
+            <p>Education in IT: self-education</p>
+            <p>English: fluent</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul class="nav_list">
+        <li><a href="https://github.com/imSeptember">Github</a></li>
+        <li><p>2023</p></li>
+        <li>
+          <a href="https://rs.school/js/">
+            <img class="footerImg" src="/images/rs_school_js.jpg" alt="logo" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
 
